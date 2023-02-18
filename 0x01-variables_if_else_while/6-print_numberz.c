@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main - main block
- *  prints all single digit numbers of base 10
- *   starting from o
- *   Return: 0 (success)
+ * prints all single digit numbers of base 10
+ * starting from 0
+ * Return: 0 (success)
  */
 int main(void)
 {
@@ -12,6 +12,7 @@ int main(void)
 	while (c < 10)
 	{
 		putchar(48 + c);
+		c++;
 	}
 
 	putchar('\n');
